@@ -1,0 +1,31 @@
+.card_container {
+  width: 18rem;
+  margin: 15px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  background-color: #f8f9fa;
+}
+
+.card_container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.company_logo {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+hr {
+  margin: 0;
+  border-color: rgba(0, 0, 0, 0.1);
+}
